@@ -1,0 +1,43 @@
+
+.login-content {
+  height: 860px - 150px;
+}
+.sidebar {
+  width: 320px;
+  height: 100vh;
+  img {
+    height: 120px;
+  }
+}
+.header {
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px solid #d4d9e3;
+}
+.content {
+  width: calc(100vw - 320px);
+}
+.hidden {
+  width: 100px !important;
+  .sidebar-link {
+    li {
+      width: 100px !important;
+      padding-left: 45px;
+      &:hover {
+        padding-left: 35px;
+      }
+    }
+    .active {
+      padding-left: 35px;
+    }
+  }
+  img {
+    display: none !important;
+  }
+  span {
+    display: none !important;
+  }
+}
+.sidebar-hidden {
+   width: calc(100vw - 100px);
+ }

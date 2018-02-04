@@ -1,0 +1,15 @@
+.login-bg {
+  background: url("../img/login-bg.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar {
+  background-color: #0e1a35;
+}

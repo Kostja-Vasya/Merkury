@@ -1,0 +1,34 @@
+.all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 1220px;
+  height: 860px;
+  background-color: white;
+  box-shadow: 0 0 50px #dbdee2;
+  h1 {
+    color: $common-blue;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  header {
+    background-color: $menu-bg;
+    height: 150px;
+    img {
+      margin: 40px;
+    }
+  }
+}
+.login-switch {
+  display: flex;
+  li {
+    width: 170px;
+    height: 150px;
+    box-sizing: border-box;
+  }
+  .active {
+    border-bottom: 10px solid $common-blue;
+  }
+}

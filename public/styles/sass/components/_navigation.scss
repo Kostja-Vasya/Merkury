@@ -1,0 +1,18 @@
+.navigation {
+  border-top: 1px solid #0d172e;
+  li {
+    height: 100px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #0d172e;
+  }
+  i {
+    margin-right: 10px;
+    color: #5584ff;
+  }
+  .active {
+     border-left: #5584ff 10px solid;
+    padding-left: 40px;
+    background-color: #122143;
+   }
+}

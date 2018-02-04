@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 1220px;
+  height: 860px;
+  background-color: white;
+  box-shadow: 0 0 50px #dbdee2;
+}
+.login-form h1 {
+  color: #5584ff;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.login-form header {
+  background-color: #0e1a35;
+  height: 150px;
+}
+.login-form header img {
+  margin: 40px;
+}
+
+.login-switch {
+  display: flex;
+}
+.login-switch li {
+  width: 170px;
+  height: 150px;
+  box-sizing: border-box;
+}
+.login-switch .active {
+  border-bottom: 10px solid #5584ff;
+}
+
+.header i {
+  margin: auto 20px;
+}
+
+.fa-caret-left {
+  color: #5584ff;
+}
+
+.login-bg {
+  background: url("../img/login-bg.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  background-color: #0e1a35;
+}
+
+.button-login-submit {
+  width: 350px;
+  height: 70px;
+  background-color: #5584ff;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  margin: 60px auto;
+}
+.button-login-submit:hover {
+  transition: 0.3s background-color ease;
+  background-color: #0060ff;
+  outline: none;
+}
+
+.sidebar-link:hover {
+  text-decoration: none;
+}
+
+.sidebar-link li:hover {
+  transition: 0.2s background-color ease;
+  background-color: #122143;
+  border-left: 10px solid #5584ff;
+  padding-left: 40px;
+}
+
+html, body {
+  font-family: sans-serif;
+}
+
+.navigation {
+  font-size: 20px;
+}
+
+.white {
+  color: white !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.login-form form {
+  margin: 80px auto;
+}
+.login-form form label {
+  border-bottom: 1px solid #d4d9e3;
+  display: flex;
+  margin-bottom: 40px;
+}
+.login-form form input {
+  outline: none;
+  border: none;
+  margin-left: 20px;
+  width: 500px;
+}
+.login-form form i {
+  color: #5584ff;
+}
+
+.login-content {
+  height: 710px;
+}
+
+.sidebar {
+  width: 320px;
+  height: 100vh;
+}
+.sidebar img {
+  height: 120px;
+}
+
+.header {
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px solid #d4d9e3;
+}
+
+.content {
+  width: calc(100vw - 320px);
+}
+
+.hidden {
+  width: 100px !important;
+}
+.hidden .sidebar-link li {
+  width: 100px !important;
+  padding-left: 45px;
+}
+.hidden .sidebar-link li:hover {
+  padding-left: 35px;
+}
+.hidden .sidebar-link .active {
+  padding-left: 35px;
+}
+.hidden img {
+  display: none !important;
+}
+.hidden span {
+  display: none !important;
+}
+
+.sidebar-hidden {
+  width: calc(100vw - 100px);
+}
+
+.navigation {
+  border-top: 1px solid #0d172e;
+}
+.navigation li {
+  height: 100px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #0d172e;
+}
+.navigation i {
+  margin-right: 10px;
+  color: #5584ff;
+}
+.navigation .active {
+  border-left: #5584ff 10px solid;
+  padding-left: 40px;
+  background-color: #122143;
+}

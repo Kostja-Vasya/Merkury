@@ -1,0 +1,23 @@
+.button-login-submit {
+  width: 350px;
+  height: 70px;
+  background-color: $common-blue;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  margin: 60px auto;
+  &:hover {
+    transition: 0.3s background-color ease;
+    background-color: #0060ff;
+    outline: none;
+  }
+}
+.sidebar-link:hover {
+  text-decoration: none;
+}
+.sidebar-link li:hover {
+  transition: 0.2s background-color ease;
+  background-color: #122143;
+  border-left: 10px solid $common-blue;
+  padding-left: 40px;
+}
