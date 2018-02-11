@@ -1,10 +1,9 @@
-
 .login-content {
   height: 860px - 150px;
 }
 .sidebar {
   width: 320px;
-  height: 100vh;
+  height: 1300px;
   img {
     height: 120px;
   }
@@ -16,6 +15,7 @@
 }
 .content {
   width: calc(100vw - 320px);
+
 }
 .hidden {
   width: 100px !important;
@@ -41,3 +41,34 @@
 .sidebar-hidden {
    width: calc(100vw - 100px);
  }
+.page {
+    padding: 40px;
+    height: calc(100vh - 120px);
+  }
+.ReportChart {
+  border: 1px solid $border-color;
+  max-width: 900px;
+  width: 100%;
+  height: 480px;
+}
+.SalesChart {
+  max-width: 575px;
+  width: 100%;
+  height: 480px;
+  border: 1px solid $border-color;
+}
+.home-cards > div{
+  width: 470px;
+  height: 520px;
+  border: 1px solid $border-color;
+  margin-top: 40px;
+  li {
+    border-top: 1px solid $border-color;
+    height: 105px;
+  }
+}
+.counter {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+}

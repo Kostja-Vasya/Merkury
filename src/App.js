@@ -1,19 +1,21 @@
-import React, { Component} from 'react';
-import Header from './Components/Header';
-import Routes from "./Routes";
-import Sidebar from './Components/Sidebar';
+import React from 'react';
+import { Route, Redirect } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from "./Login";
+import Auth from "./Components/Auth";
+import Routes from "./Routes";
+import $ from 'jquery';
 
-class App extends Component {
+const Public = () => <Route path="/login" component={Login}/>;
+const Protected = () => <Routes/>;
+
+class App extends React.Component {
     render() {
     return (
-      <div className="App d-flex">
-          <Sidebar/>
-          <div className="content">
-              <Header/>
-              <Routes/>
-          </div>
-      </div>
+        <div>
+            <Public/>
+            <Protected/>
+        </div>
     );
   }
 }

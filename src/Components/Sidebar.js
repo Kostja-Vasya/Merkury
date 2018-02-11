@@ -17,10 +17,10 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="sidebar">
-                <img className="p-4" src="styles/img/logo.png"/>
+                <img className="p-4" alt="" src="styles/img/logo.png"/>
                 <nav className="white navigation">
                     <ul>
-                        <Link to="/home" className="white sidebar-link"><li className="active d-flex align-items-center">
+                        <Link to="/" className="white sidebar-link"><li className="active d-flex align-items-center">
                             <i className="fa fa-home" aria-hidden="true"/>
                             <span>Home</span>
                         </li>

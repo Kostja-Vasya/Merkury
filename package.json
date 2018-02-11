@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "chart.js": "^2.7.1",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "jquery": "^3.2.1",
@@ -11,6 +12,7 @@
     "popper.js": "^1.12.9",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-history": "^0.18.2",
     "react-scripts": "1.1.0"
   },
   "devDependencies": {

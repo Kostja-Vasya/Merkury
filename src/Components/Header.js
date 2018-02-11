@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
 import 'font-awesome/css/font-awesome.min.css';
 import 'jquery/dist/jquery.min'
-import $ from "jquery";
 import './ToggleSidebar';
 
 class Header extends React.Component {
@@ -19,7 +19,19 @@ class Header extends React.Component {
                     <i className="fa fa-2x fa-search" aria-hidden="true"/>
                 </div>
                 <div className="user-panel d-flex">
-                    <Link to="/add">+ Add Project</Link>
+                    <Link to="/add" className="add-button">+ Add Project</Link>
+                    <i className="fa fa-2x fa-envelope" aria-hidden="true"/>
+                    <i className="fa fa-2x fa-bell" aria-hidden="true"/>
+                    <div className="dropdown mr-4">
+                        <div className="d-flex align-items-center dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img alt="" src="styles/img/avatar.png"/>
+                        </div>
+                        <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <Link to="/" className="dropdown-item" >Action</Link>
+                            <Link to="/" className="dropdown-item">Another action</Link>
+                            <Link to="/" className="dropdown-item">Something else here</Link>
+                        </div>
+                    </div>
                 </div>
             </header>
         );
